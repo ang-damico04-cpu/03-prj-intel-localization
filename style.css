@@ -1,0 +1,35 @@
+:root {
+  --blue-bar-color: #005dc0; /* Default Bootstrap blue */
+}
+
+nav.navbar {
+  margin-bottom: 40px;
+  background-color: var(--blue-bar-color) !important;
+}
+
+/* Hide horizontal scrollbar by default, show on hover */
+.timeline-scroll-row {
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+}
+.timeline-scroll-row::-webkit-scrollbar {
+  height: 0px;
+}
+.timeline-scroll-row:hover {
+  scrollbar-width: thin;
+}
+.timeline-scroll-row:hover::-webkit-scrollbar {
+  height: 8px;
+}
+
+section.container.my-5 {
+  margin-bottom: 100px !important;
+}
+
+section:last-of-type {
+  margin-bottom: 100px;
+}
+.rtl {
+  text-align: right;
+  direction: rtl;
+}
